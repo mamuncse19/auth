@@ -17,18 +17,17 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link id="bootstrap-style" href="{{asset('front/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('front/css/bootstrap-responsive.min.css')}}" rel="stylesheet">
+    <link id="base-style" href="{{asset('front/css/style.css')}}" rel="stylesheet">
+    <link id="base-style-responsive" href="{{asset('front/css/style-responsive.css')}}" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
@@ -78,3 +77,61 @@
     </div>
 </body>
 </html>
+
+<!-- start: JavaScript-->
+
+        <script src="front/js/jquery-1.9.1.min.js"></script>
+        <script src="front/js/jquery-migrate-1.0.0.min.js"></script>
+    
+        <script src="front/js/jquery-ui-1.10.0.custom.min.js"></script>
+    
+        <script src="front/js/jquery.ui.touch-punch.js"></script>
+    
+        <script src="front/js/modernizr.js"></script>
+    
+        <script src="front/js/bootstrap.min.js"></script>
+    
+        <script src="front/js/jquery.cookie.js"></script>
+    
+        <script src='front/js/fullcalendar.min.js'></script>
+    
+        <script src='front/js/jquery.dataTables.min.js'></script>
+
+        <script src="front/js/excanvas.js"></script>
+        <script src="front/js/jquery.flot.js"></script>
+        <script src="front/js/jquery.flot.pie.js"></script>
+        <script src="front/js/jquery.flot.stack.js"></script>
+        <script src="front/js/jquery.flot.resize.min.js"></script>
+    
+        <script src="front/js/jquery.chosen.min.js"></script>
+    
+        <script src="front/js/jquery.uniform.min.js"></script>
+        
+        <script src="front/js/jquery.cleditor.min.js"></script>
+    
+        <script src="front/js/jquery.noty.js"></script>
+    
+        <script src="front/js/jquery.elfinder.min.js"></script>
+    
+        <script src="front/js/jquery.raty.min.js"></script>
+    
+        <script src="front/js/jquery.iphone.toggle.js"></script>
+    
+        <script src="front/js/jquery.uploadify-3.1.min.js"></script>
+    
+        <script src="front/js/jquery.gritter.min.js"></script>
+    
+        <script src="front/js/jquery.imagesloaded.js"></script>
+    
+        <script src="front/js/jquery.masonry.min.js"></script>
+    
+        <script src="front/js/jquery.knob.modified.js"></script>
+    
+        <script src="front/js/jquery.sparkline.min.js"></script>
+    
+        <script src="front/js/counter.js"></script>
+    
+        <script src="front/js/retina.js"></script>
+
+        <script src="front/js/custom.js"></script>
+    <!-- end: JavaScript-->
